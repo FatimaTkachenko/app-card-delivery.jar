@@ -25,4 +25,4 @@ jobs:
         sleep 15
 
     - name: Run tests
-      run: ./gradlew test -Dselenide.headless=true
+      run: gradlew.bat test -Dselenide.headless=true
